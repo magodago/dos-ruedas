@@ -1,8 +1,8 @@
-print-ready/
-preview/
-alt/
-scripts/
-docs/
+/print-ready/
+/preview/
+/alt/
+/scripts/
+/docs/
 *.py
 prep*.log
 manifiesto.csv
