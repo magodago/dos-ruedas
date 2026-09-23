@@ -61,6 +61,18 @@ const precioDe = (prenda, talla) => PRENDAS[prenda].precio + (GRANDES.includes(t
 
 export default {
   async fetch(request, env) {
+    // Endpoint auxiliar: recibe el codigo de autorizacion OAuth (Pinterest)
+    if (new URL(request.url).pathname === '/callback') {
+      const q = new URL(request.url).searchParams;
+      const c = q.get('code') || q.get('error') || 'sin codigo';
+      return new Response('<html><body style="font-family:sans-serif;background:#0a0a14;color:#f2ede4;text-align:center;padding:60px"><h2>Codigo de autorizacion</h2><p style="font-size:1.05rem;word-break:break-all">' + c + '</p></body></html>', { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    }
+    // Endpoint auxiliar: recibe el codigo de autorizacion OAuth (Pinterest)
+    if (new URL(request.url).pathname === '/callback') {
+      const q = new URL(request.url).searchParams;
+      const c = q.get('code') || q.get('error') || 'sin codigo';
+      return new Response('<html><body style="font-family:sans-serif;background:#0a0a14;color:#f2ede4;text-align:center;padding:60px"><h2>Codigo de autorizacion</h2><p style="font-size:1.05rem;word-break:break-all">' + c + '</p></body></html>', { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
+    }
     const url = new URL(request.url);
     if (request.method === 'OPTIONS') return new Response(null, { headers: CORS });
 
