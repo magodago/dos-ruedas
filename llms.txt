@@ -1,0 +1,31 @@
+# DOS RUEDAS
+
+> Tienda de ropa motera estampada bajo pedido en Europa. Camisetas, sudaderas y hoodies con disenos originales de motos, calaveras y riders. Impresion DTF de alta definicion a color sobre prendas negras de algodon. Fabricacion y envio desde la Union Europea.
+
+## Que vendemos
+- Camiseta Classic (Gildan 5000, 100% algodon): 24,95 EUR
+- Camiseta Premium con etiqueta de marca en el cuello: 29,95 EUR
+- Sudadera con capucha? No. Sudadera clasica (crewneck): 44,95 EUR
+- Hoodie con capucha: 49,95 EUR
+- Suplemento tallas grandes 2XL y 3XL: +3,00 EUR
+
+## Tallas
+S, M, L, XL, 2XL, 3XL. Guia de tallas en la web.
+
+## Coleccion
+18 disenos originales: calaveras, motos clasicas, riders, aguilas, lobos y serpientes. Nombres: Calavera en Llamas, Rider al Atardecer, Motor Alado, Calavera con Gafas, Calavera Motero, Motera Vintage, Lobo con Gafas, Serpiente y Llaves, Moto Clasica, Motor en Llamas, Carretera al Atardecer, Perro en Sidecar, Chopper Negro, Rider Chopper, Rider en el Bosque, Moto en las Montanas, Emblema del Taller, Aguila Motor.
+
+## Envio y plazos
+- Envio incluido en el precio, toda Espana.
+- Produccion bajo pedido en planta de la Union Europea.
+- Entrega estimada: 7 a 9 dias laborables.
+
+## Pago
+Tarjeta, Apple Pay y Google Pay mediante Stripe. Pago seguro; no almacenamos datos de tarjeta.
+
+## Devoluciones
+14 dias naturales de derecho de desistimiento desde la recepcion, segun normativa europea.
+
+## Contacto
+WhatsApp: +34 658 237 988
+Web: https://magodago.github.io/dos-ruedas/
