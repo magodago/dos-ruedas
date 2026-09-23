@@ -1,0 +1,9 @@
+print-ready/
+preview/
+alt/
+scripts/
+docs/
+*.py
+prep*.log
+manifiesto.csv
+CONTACTSHEET.jpg

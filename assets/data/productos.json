@@ -1,0 +1,350 @@
+{
+  "marca": {
+    "nombre_codigo": "RUTA NEGRA",
+    "estado": "pendiente de confirmar"
+  },
+  "moneda": "EUR",
+  "pais": "ES",
+  "tallas": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "2XL",
+    "3XL"
+  ],
+  "assets_base": "https://raw.githubusercontent.com/magodago/ruta-negra/main/",
+  "verificado_ok": true,
+  "gracias_url": "https://<dominio>/gracias.html",
+  "prendas": {
+    "camiseta_premium": {
+      "nombre": "Camiseta Premium",
+      "uid": "apparel_product_gca_t-shirt_gsc_crewneck_gcu_unisex_gqa_heavy-weight_gsi_{size}_gco_black_gpr_4-0-dtf_inlbl-dtf_gildan_5000",
+      "pvp": {
+        "S": 29.95,
+        "M": 29.95,
+        "L": 29.95,
+        "XL": 29.95,
+        "2XL": 32.95,
+        "3XL": 32.95
+      },
+      "coste_es": {
+        "S": 11.29,
+        "M": 11.29,
+        "L": 11.29,
+        "XL": 11.29,
+        "2XL": 10.89,
+        "3XL": 12.49
+      },
+      "etiqueta_cuello": true,
+      "descripcion": "Gildan 5000, 100% algodón, 180 g/m² (162 g), corte unisex, impresión DTF frontal a todo color, etiqueta propia en el cuello."
+    },
+    "camiseta_classic": {
+      "nombre": "Camiseta Classic",
+      "uid": "apparel_product_gca_t-shirt_gsc_crewneck_gcu_unisex_gqa_heavy-weight_gsi_{size}_gco_black_gpr_4-0-dtf_gildan_5000",
+      "pvp": {
+        "S": 24.95,
+        "M": 24.95,
+        "L": 24.95,
+        "XL": 24.95,
+        "2XL": 27.95,
+        "3XL": 27.95
+      },
+      "coste_es": {
+        "S": 8.59,
+        "M": 8.59,
+        "L": 8.59,
+        "XL": 8.59,
+        "2XL": 8.69,
+        "3XL": 10.39
+      },
+      "etiqueta_cuello": false,
+      "descripcion": "Gildan 5000, 100% algodón, 180 g/m² (162 g), corte unisex, impresión DTF frontal a todo color."
+    },
+    "sudadera_classic": {
+      "nombre": "Sudadera Classic",
+      "uid": "apparel_product_gca_sweatshirt_gsc_crewneck_gcu_unisex_gqa_classic_gsi_{size}_gco_black_gpr_4-0",
+      "pvp": {
+        "S": 44.95,
+        "M": 44.95,
+        "L": 44.95,
+        "XL": 44.95,
+        "2XL": 47.95,
+        "3XL": 47.95
+      },
+      "coste_es": {
+        "S": 16.59,
+        "M": 16.59,
+        "L": 16.59,
+        "XL": 16.59,
+        "2XL": 18.51,
+        "3XL": 20.28
+      },
+      "etiqueta_cuello": false,
+      "descripcion": "Sudadera cuello redondo unisex, 50% algodón / 50% poliéster, 279 g/m² (~429 g), felpa gruesa, impresión DTF frontal a todo color."
+    },
+    "hoodie_classic": {
+      "nombre": "Hoodie con Capucha",
+      "uid": "apparel_product_gca_hoodie_gsc_pullover_gcu_unisex_gqa_classic_gsi_{size}_gco_black_gpr_4-0",
+      "pvp": {
+        "S": 49.95,
+        "M": 49.95,
+        "L": 49.95,
+        "XL": 49.95,
+        "2XL": 52.95,
+        "3XL": 52.95
+      },
+      "coste_es": {
+        "S": 19.36,
+        "M": 19.36,
+        "L": 19.36,
+        "XL": 19.36,
+        "2XL": 21.28,
+        "3XL": 23.04
+      },
+      "etiqueta_cuello": false,
+      "descripcion": "Hoodie unisex con capucha y bolsillo canguro, 50% algodón / 50% poliéster, 279 g/m² (~489 g), impresión DTF frontal a todo color."
+    }
+  },
+  "disenos": [
+    {
+      "id": "01",
+      "slug": "calavera-llamas",
+      "nombre": "Calavera en Llamas",
+      "print_ready": "print-ready/01-calavera-llamas.png",
+      "preview": "preview/01-calavera-llamas.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "02",
+      "slug": "rider-atardecer",
+      "nombre": "Rider al Atardecer",
+      "print_ready": "print-ready/02-rider-atardecer.png",
+      "preview": "preview/02-rider-atardecer.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "03",
+      "slug": "motor-alado",
+      "nombre": "Motor Alado",
+      "print_ready": "print-ready/03-motor-alado.png",
+      "preview": "preview/03-motor-alado.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "04",
+      "slug": "calavera-gafas",
+      "nombre": "Calavera con Gafas",
+      "print_ready": "print-ready/04-calavera-gafas.png",
+      "preview": "preview/04-calavera-gafas.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "05",
+      "slug": "calavera-motero",
+      "nombre": "Calavera Motera",
+      "print_ready": "print-ready/05-calavera-motero.png",
+      "preview": "preview/05-calavera-motero.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "06",
+      "slug": "motera-vintage",
+      "nombre": "Motera Vintage",
+      "print_ready": "print-ready/06-motera-vintage.png",
+      "preview": "preview/06-motera-vintage.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "07",
+      "slug": "lobo-gafas",
+      "nombre": "Lobo con Gafas",
+      "print_ready": "print-ready/07-lobo-gafas.png",
+      "preview": "preview/07-lobo-gafas.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "08",
+      "slug": "serpiente-llaves",
+      "nombre": "Serpiente y Llaves",
+      "print_ready": "print-ready/08-serpiente-llaves.png",
+      "preview": "preview/08-serpiente-llaves.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "09",
+      "slug": "moto-clasica",
+      "nombre": "Moto Clásica",
+      "print_ready": "print-ready/09-moto-clasica.png",
+      "preview": "preview/09-moto-clasica.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "10",
+      "slug": "motor-llamas",
+      "nombre": "Motor en Llamas",
+      "print_ready": "print-ready/10-motor-llamas.png",
+      "preview": "preview/10-motor-llamas.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "11",
+      "slug": "carretera-atardecer",
+      "nombre": "Carretera al Atardecer",
+      "print_ready": "print-ready/11-carretera-atardecer.png",
+      "preview": "preview/11-carretera-atardecer.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "12",
+      "slug": "perro-sidecar",
+      "nombre": "Perro en Sidecar",
+      "print_ready": "print-ready/12-perro-sidecar.png",
+      "preview": "preview/12-perro-sidecar.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "13",
+      "slug": "chopper-negro",
+      "nombre": "Chopper Negro",
+      "print_ready": "print-ready/13-chopper-negro.png",
+      "preview": "preview/13-chopper-negro.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "14",
+      "slug": "rider-chopper",
+      "nombre": "Rider en Chopper",
+      "print_ready": "print-ready/14-rider-chopper.png",
+      "preview": "preview/14-rider-chopper.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "15",
+      "slug": "rider-bosque",
+      "nombre": "Rider en el Bosque",
+      "print_ready": "print-ready/15-rider-bosque.png",
+      "preview": "preview/15-rider-bosque.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "16",
+      "slug": "moto-montanas",
+      "nombre": "Moto en las Montañas",
+      "print_ready": "print-ready/16-moto-montanas.png",
+      "preview": "preview/16-moto-montanas.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "17",
+      "slug": "emblema-taller",
+      "nombre": "Emblema del Taller",
+      "print_ready": "print-ready/17-emblema-taller.png",
+      "preview": "preview/17-emblema-taller.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    },
+    {
+      "id": "18",
+      "slug": "aguila-motor",
+      "nombre": "Águila y Motor",
+      "print_ready": "print-ready/18-aguila-motor.png",
+      "preview": "preview/18-aguila-motor.jpg",
+      "prendas": [
+        "camiseta_premium",
+        "camiseta_classic",
+        "sudadera_classic",
+        "hoodie_classic"
+      ]
+    }
+  ],
+  "verificado": {
+    "fecha": "2026-09-23",
+    "fuente": "Gelato Product Catalog API v3 (ES/EUR)",
+    "nota": "gpr_4-0 = impresión en el FRENTE (confirmado en docs de Gelato). Todas las tallas S-3XL validadas con precio > 0."
+  }
+}
