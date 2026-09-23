@@ -79,7 +79,10 @@ export default {
         let total = 0;
         const limpios = [];
         items.forEach((it, i) => {
-          const prenda = String(it.prenda || '').toLowerCase();
+          const bruto = String(it.prenda || '').toLowerCase();
+          const ALIAS = { camiseta: 'camiseta_classic', basica: 'camiseta_classic', 'camiseta-classic': 'camiseta_classic',
+                          premium: 'camiseta_premium', sudadera: 'sudadera_classic', hoodie: 'hoodie_classic' };
+          const prenda = ALIAS[bruto] || bruto;
           const talla = String(it.talla || '').toLowerCase();
           const slug = String(it.diseno || '');
           const cant = Math.max(1, Math.min(10, parseInt(it.cantidad) || 1));

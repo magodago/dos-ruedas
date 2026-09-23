@@ -591,7 +591,8 @@ function closeCart(){ document.getElementById("cartSide").classList.remove("open
 /* ====== CHECKOUT ====== */
 async function checkout(){
   if(!cart.length) return;
-  const items=cart.map(it=>({diseno:it.slug,prenda:it.prenda,talla:it.talla}));
+  const MAP={camiseta:"camiseta_classic",premium:"camiseta_premium",sudadera:"sudadera_classic",hoodie:"hoodie_classic"};
+  const items=cart.map(it=>({diseno:it.slug,prenda:MAP[it.prenda]||it.prenda,talla:it.talla}));
   const wa="https://wa.me/34658237988?text="+encodeURIComponent("Hola, quiero pedir de DOS RUEDAS: "+cart.map(it=>it.nombre+" ("+it.prendaNombre+", talla "+it.talla+")").join(", "));
   if(!API_URL){ window.open(wa,"_blank"); return; }
   const btn=document.getElementById("checkoutBtn");
