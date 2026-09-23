@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>DOS RUEDAS · Ropa motera premium estampada en Europa</title>
+<meta name="description" content="Camisetas, sudaderas y hoodies moteros estampados en Europa con impresión DTF de alta definición. 18 diseños exclusivos, tallas S a 3XL, envío incluido y pago seguro. Desde 24,95 €.">
+<meta name="theme-color" content="#0A0A0D">
+<link rel="canonical" href="https://magodago.github.io/dos-ruedas/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DOS RUEDAS · Ropa motera premium">
+<meta property="og:description" content="18 diseños moteros exclusivos. Camisetas desde 24,95 €, sudaderas y hoodies. Estampado DTF premium, envío incluido.">
+<meta property="og:image" content="assets/preview/01-calavera-llamas.jpg">
+<meta property="og:locale" content="es_ES">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0A0A0D; --ink-2:#121216; --ink-3:#1A1A20;
+  --bone:#F2EDE4; --bone-dim:rgba(242,237,228,.66);
+  --orange:#FF6B1A; --orange-d:#E05510; --slate:#3A3F45; --line:rgba(242,237,228,.12);
+  --f-display:'Archivo Black',system-ui,sans-serif; --f-body:'Inter',system-ui,sans-serif;
+  --ease:cubic-bezier(.22,.61,.36,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--ink);color:var(--bone);font-family:var(--f-body);line-height:1.6;overflow-x:hidden}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;cursor:pointer;border:none;background:none;color:inherit}
+.wrap{width:min(1240px,92vw);margin:0 auto}
+.display{font-family:var(--f-display);text-transform:uppercase;letter-spacing:.02em;line-height:.95}
+.eyebrow{font-size:.68rem;letter-spacing:.34em;text-transform:uppercase;color:var(--orange);font-weight:600}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 30px;font-size:.72rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;border:1px solid transparent;transition:all .3s var(--ease)}
+.btn-primary{background:var(--orange);color:#0A0A0D}
+.btn-primary:hover{background:var(--bone);transform:translateY(-2px)}
+.btn-ghost{border-color:var(--line);color:var(--bone)}
+.btn-ghost:hover{border-color:var(--orange);color:var(--orange)}
+/* ---- NAV ---- */
+header{position:fixed;inset:0 0 auto 0;z-index:90;padding:16px 0;transition:background .4s var(--ease),padding .4s var(--ease),border-color .4s var(--ease);border-bottom:1px solid transparent}
+header.scrolled{background:rgba(10,10,13,.92);backdrop-filter:blur(14px);border-bottom-color:var(--line);padding:10px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:18px}
+.logo{display:flex;align-items:baseline;gap:8px;font-family:var(--f-display);font-size:1.25rem;letter-spacing:.06em}
+.logo .dot{width:8px;height:8px;background:var(--orange);border-radius:50%;display:inline-block;transform:translateY(-1px)}
+.logo small{font-family:var(--f-body);font-size:.56rem;letter-spacing:.28em;color:var(--bone-dim);text-transform:uppercase}
+.nav-links{display:flex;gap:30px;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:500}
+.nav-links a{position:relative;padding-bottom:3px}
+.nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--orange);transition:width .3s var(--ease)}
+.nav-links a:hover::after{width:100%}
+.nav-right{display:flex;align-items:center;gap:16px}
+.cart-btn{position:relative;display:flex;align-items:center;gap:8px;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase}
+.cart-count{background:var(--orange);color:#0A0A0D;font-weight:700;font-size:.62rem;min-width:18px;height:18px;border-radius:9px;display:grid;place-items:center;padding:0 4px}
+.burger{display:none;flex-direction:column;gap:5px}
+.burger span{width:22px;height:1.5px;background:var(--bone);display:block}
+/* ---- HERO ---- */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;padding:120px 0 60px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;opacity:.42;filter:contrast(1.15) saturate(1.1);transform:scale(1.06)}
+.hero-bg::after{content:'';position:absolute;inset:0;background:radial-gradient(120% 90% at 20% 40%,rgba(10,10,13,.35) 0%,rgba(10,10,13,.92) 62%,#0A0A0D 100%)}
+.hero-inner{position:relative;z-index:2;max-width:820px}
+.hero h1{font-size:clamp(2.9rem,8.4vw,6.4rem);margin:18px 0 22px}
+.hero h1 em{font-style:normal;color:var(--orange)}
+.hero p{font-size:clamp(1rem,1.6vw,1.18rem);color:var(--bone-dim);max-width:56ch}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.hero-meta{display:flex;gap:26px;flex-wrap:wrap;margin-top:46px;font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bone-dim)}
+.hero-meta b{color:var(--bone);font-weight:600}
+/* ---- MARQUEE ---- */
+.marquee{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--ink-2);overflow:hidden;padding:14px 0}
+.marquee-track{display:flex;gap:40px;white-space:nowrap;animation:slide 26s linear infinite;font-family:var(--f-display);font-size:1rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bone-dim)}
+.marquee-track span{color:var(--orange)}
+@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.marquee-track{animation-duration:60s}}
+/* ---- SECCIONES ---- */
+section{padding:96px 0}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;margin-bottom:46px;flex-wrap:wrap}
+.sec-head h2{font-size:clamp(2rem,4.6vw,3.4rem)}
+.sec-head p{color:var(--bone-dim);max-width:46ch;font-size:.96rem}
+/* ---- FILTROS ---- */
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:38px}
+.chip{padding:9px 18px;border:1px solid var(--line);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--bone-dim);transition:all .25s var(--ease)}
+.chip.active,.chip:hover{border-color:var(--orange);color:var(--orange)}
+/* ---- GRID PRODUCTOS ---- */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(258px,1fr));gap:26px}
+.card{border:1px solid var(--line);background:var(--ink-2);transition:transform .4s var(--ease),border-color .4s var(--ease);cursor:pointer;overflow:hidden}
+.card:hover{transform:translateY(-5px);border-color:rgba(255,107,26,.55)}
+.card-img{position:relative;aspect-ratio:1/1;background:#000;overflow:hidden}
+.card-img img{width:100%;height:100%;object-fit:cover;transition:transform .7s var(--ease)}
+.card:hover .card-img img{transform:scale(1.06)}
+.card-tag{position:absolute;top:12px;left:12px;background:rgba(10,10,13,.82);border:1px solid var(--line);padding:5px 10px;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase;color:var(--orange)}
+.card-body{padding:18px}
+.card-body h3{font-family:var(--f-display);font-size:1.02rem;letter-spacing:.04em;text-transform:uppercase}
+.card-body .price{margin-top:8px;font-size:.86rem;color:var(--bone-dim)}
+.card-body .price b{color:var(--bone);font-size:1rem}
+.card-body .from{margin-top:14px;display:inline-flex;align-items:center;gap:8px;font-size:.66rem;letter-spacing:.16em;text-transform:uppercase;color:var(--orange)}
+/* ---- MODAL ---- */
+.modal{position:fixed;inset:0;z-index:120;display:none;place-items:center;padding:20px}
+.modal.open{display:grid}
+.modal-ov{position:absolute;inset:0;background:rgba(4,4,6,.86);backdrop-filter:blur(6px)}
+.modal-box{position:relative;z-index:2;background:var(--ink-2);border:1px solid var(--line);width:min(980px,94vw);max-height:92svh;overflow:auto;display:grid;grid-template-columns:1.05fr 1fr}
+.modal-img{background:#000;display:flex;align-items:center;justify-content:center;padding:26px}
+.modal-img img{width:100%;height:auto;max-height:70svh;object-fit:contain}
+.modal-info{padding:34px 30px;display:flex;flex-direction:column;gap:16px}
+.modal-info h3{font-family:var(--f-display);font-size:1.5rem;text-transform:uppercase}
+.modal-close{position:absolute;top:12px;right:14px;font-size:1.6rem;line-height:1;color:var(--bone-dim);z-index:3}
+.modal-close:hover{color:var(--orange)}
+.opt-label{font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--bone-dim)}
+.opts{display:flex;gap:8px;flex-wrap:wrap}
+.opt{padding:10px 15px;border:1px solid var(--line);font-size:.72rem;transition:all .22s var(--ease)}
+.opt:hover{border-color:var(--bone-dim)}
+.opt.sel{border-color:var(--orange);color:var(--orange);background:rgba(255,107,26,.07)}
+.opt small{display:block;font-size:.58rem;color:var(--bone-dim);letter-spacing:.06em}
+.price-row{display:flex;align-items:baseline;gap:12px;margin-top:4px}
+.price-row b{font-family:var(--f-display);font-size:1.9rem}
+.price-row s{color:var(--bone-dim);font-size:.9rem}
+.note{font-size:.74rem;color:var(--bone-dim)}
+.modal-cta{display:flex;flex-direction:column;gap:10px;margin-top:auto}
+/* ---- CARRITO ---- */
+.cart-side{position:fixed;top:0;right:0;height:100svh;width:min(420px,94vw);background:var(--ink-2);border-left:1px solid var(--line);z-index:130;transform:translateX(102%);transition:transform .45s var(--ease);display:flex;flex-direction:column}
+.cart-side.open{transform:none}
+.cart-head{display:flex;justify-content:space-between;align-items:center;padding:22px;border-bottom:1px solid var(--line)}
+.cart-head h3{font-family:var(--f-display);font-size:1rem;letter-spacing:.1em;text-transform:uppercase}
+.cart-items{flex:1;overflow:auto;padding:18px 22px;display:flex;flex-direction:column;gap:16px}
+.cart-item{display:flex;gap:14px;border-bottom:1px solid var(--line);padding-bottom:14px}
+.cart-item img{width:64px;height:64px;object-fit:cover;background:#000;flex:0 0 auto}
+.cart-item .ci-info{flex:1;font-size:.82rem}
+.cart-item .ci-info b{display:block;font-family:var(--f-display);font-size:.86rem;letter-spacing:.04em}
+.cart-item .ci-info span{color:var(--bone-dim);font-size:.74rem}
+.ci-rm{color:var(--bone-dim);font-size:1.1rem;align-self:flex-start}
+.ci-rm:hover{color:var(--orange)}
+.cart-foot{padding:20px 22px;border-top:1px solid var(--line)}
+.cart-total{display:flex;justify-content:space-between;font-size:.9rem;margin-bottom:8px}
+.cart-total b{font-family:var(--f-display);font-size:1.3rem}
+.cart-foot .btn{width:100%;justify-content:center}
+.overlay{position:fixed;inset:0;background:rgba(4,4,6,.7);z-index:125;opacity:0;pointer-events:none;transition:opacity .35s var(--ease)}
+.overlay.open{opacity:1;pointer-events:auto}
+/* ---- CALIDAD / PRENDAS ---- */
+.split{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:34px}
+.feature{border:1px solid var(--line);padding:28px;background:var(--ink-2)}
+.feature h3{font-family:var(--f-display);font-size:1.04rem;text-transform:uppercase;margin-bottom:10px}
+.feature p{color:var(--bone-dim);font-size:.9rem}
+.feature .n{font-family:var(--f-display);color:var(--orange);font-size:.9rem;margin-bottom:14px;display:block}
+/* ---- PRECIOS PRENDAS ---- */
+.prices{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px}
+.price-card{border:1px solid var(--line);padding:26px;background:var(--ink-2);position:relative}
+.price-card.hi{border-color:var(--orange)}
+.price-card .badge{position:absolute;top:-11px;left:22px;background:var(--orange);color:#0A0A0D;font-size:.58rem;letter-spacing:.16em;text-transform:uppercase;padding:4px 10px;font-weight:700}
+.price-card h3{font-family:var(--f-display);font-size:1.1rem;text-transform:uppercase;margin-bottom:6px}
+.price-card .p{font-family:var(--f-display);font-size:2rem;margin:12px 0 4px}
+.price-card .p small{font-family:var(--f-body);font-size:.74rem;color:var(--bone-dim);letter-spacing:0}
+.price-card ul{list-style:none;margin-top:16px;display:flex;flex-direction:column;gap:8px;font-size:.84rem;color:var(--bone-dim)}
+.price-card ul li::before{content:'—';color:var(--orange);margin-right:8px}
+/* ---- FAQ ---- */
+.faq{display:flex;flex-direction:column;gap:0;border-top:1px solid var(--line)}
+.faq details{border-bottom:1px solid var(--line);padding:22px 0}
+.faq summary{cursor:pointer;font-family:var(--f-display);font-size:.94rem;text-transform:uppercase;letter-spacing:.05em;list-style:none;display:flex;justify-content:space-between;gap:20px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:'+';color:var(--orange);font-size:1.2rem}
+.faq details[open] summary::after{content:'–'}
+.faq p{margin-top:14px;color:var(--bone-dim);font-size:.9rem;max-width:88ch}
+/* ---- CONTACTO / FOOTER ---- */
+.contact{background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+footer{padding:60px 0 40px;font-size:.82rem;color:var(--bone-dim)}
+.foot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px;margin-bottom:36px}
+.foot-grid h4{font-family:var(--f-display);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--bone);margin-bottom:14px}
+.foot-grid a{display:block;padding:4px 0;transition:color .2s}
+.foot-grid a:hover{color:var(--orange)}
+.foot-bottom{border-top:1px solid var(--line);padding-top:24px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:.74rem}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+.wa{position:fixed;right:20px;bottom:20px;z-index:100;width:54px;height:54px;border-radius:50%;background:#25D366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.45)}
+.wa svg{width:26px;height:26px;fill:#08240f}
+@media (max-width:900px){
+  .nav-links{display:none}.burger{display:flex}
+  .nav-links.open{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--ink-2);border-top:1px solid var(--line);padding:24px;gap:18px}
+  .modal-box{grid-template-columns:1fr}
+  .modal-img{max-height:38svh}
+  section{padding:72px 0}
+}
+@media (max-width:560px){
+  .logo small{display:none}
+  .hero{padding-top:104px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px}
+  .card-body{padding:14px}
+  .hero-meta{gap:14px;font-size:.62rem}
+}
+</style>
+</head>
+<body>
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="#" class="logo">DOS<small>RUEDAS</small><i class="dot"></i></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#coleccion">Colección</a>
+      <a href="#prendas">Prendas y tallas</a>
+      <a href="#calidad">Calidad</a>
+      <a href="#envio">Envío</a>
+      <a href="#faq">Dudas</a>
+    </nav>
+    <div class="nav-right">
+      <button class="cart-btn" onclick="openCart()" aria-label="Abrir carrito">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="burger" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menú"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-bg"><img src="assets/preview/01-calavera-llamas.jpg" alt="Calavera en llamas, diseño motero DOS RUEDAS"></div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Ropa motera estampada en Europa</p>
+    <h1 class="display">Dos ruedas.<br><em>Una vida.</em></h1>
+    <p>18 diseños originales estampados con tecnología DTF de alta definición sobre algodón de gramaje alto. Sin intermediarios, sin stock, sin esperas de semanas: cada prenda se produce cuando la pides y sale del taller en 3-5 días.</p>
+    <div class="hero-cta">
+      <a href="#coleccion" class="btn btn-primary">Ver la colección</a>
+      <a href="#prendas" class="btn btn-ghost">Prendas y tallas</a>
+    </div>
+    <div class="hero-meta">
+      <div><b>18</b> diseños</div>
+      <div><b>S a 3XL</b> tallas reales</div>
+      <div><b>Envío incluido</b> península</div>
+      <div><b>24,95 €</b> desde</div>
+    </div>
+  </div>
+</div>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span>DOS RUEDAS</span> Impresión DTF premium <span>·</span> Algodón de gramaje alto <span>·</span> Etiqueta de marca en el cuello <span>·</span> Envío incluido <span>·</span> Tallas S a 3XL <span>·</span> Pago seguro con tarjeta <span>·</span>
+    <span>DOS RUEDAS</span> Impresión DTF premium <span>·</span> Algodón de gramaje alto <span>·</span> Etiqueta de marca en el cuello <span>·</span> Envío incluido <span>·</span> Tallas S a 3XL <span>·</span> Pago seguro con tarjeta <span>·</span>
+  </div>
+</div>
+
+<section id="coleccion">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <p class="eyebrow">Colección Black Rider</p>
+        <h2 class="display">18 diseños.<br>Ninguno se repite.</h2>
+      </div>
+      <p>Todos los diseños están creados para camiseta negra: tinta con cuerpo, alto contraste y detalle fino. Elige el diseño, la prenda y la talla.</p>
+    </div>
+    <div class="filters reveal">
+      <button class="chip active" data-f="all" onclick="filterCards(this)">Todos</button>
+      <button class="chip" data-f="calavera" onclick="filterCards(this)">Calaveras</button>
+      <button class="chip" data-f="moto" onclick="filterCards(this)">Motos</button>
+      <button class="chip" data-f="rider" onclick="filterCards(this)">Riders</button>
+      <button class="chip" data-f="animal" onclick="filterCards(this)">Animales</button>
+    </div>
+    <div class="grid" id="grid"><!--GRID--></div>
+  </div>
+</section>
+
+<section id="prendas" style="background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <p class="eyebrow">Prendas y tallas</p>
+        <h2 class="display">Elige tu prenda</h2>
+      </div>
+      <p>Mismo diseño en cuatro prendas. La camiseta Premium y el pack de marca incluyen etiqueta DOS RUEDAS impresa en el cuello: nada de etiquetas de fabricante ajenas a la vista.</p>
+    </div>
+    <div class="prices reveal">
+      <div class="price-card">
+        <h3>Camiseta Classic</h3>
+        <div class="p">24,95 €</div>
+        <small class="note">Algodón 100%, 185 g/m²</small>
+        <ul>
+          <li>Tallas S · M · L · XL</li>
+          <li>Impresión DTF frontal</li>
+          <li>Envío incluido</li>
+        </ul>
+      </div>
+      <div class="price-card hi">
+        <span class="badge">Más vendida</span>
+        <h3>Camiseta Premium</h3>
+        <div class="p">29,95 €</div>
+        <small class="note">Algodón pesado, 203 g/m²</small>
+        <ul>
+          <li>Tallaje hasta 3XL</li>
+          <li><b>Etiqueta de marca en el cuello</b></li>
+          <li>Color negro sólido con caída firme</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3>Sudadera Classic</h3>
+        <div class="p">44,95 €</div>
+        <small class="note">Felpa 429 g, cuello redondo</small>
+        <ul>
+          <li>Tallas S · M · L · XL</li>
+          <li>Interior perchado</li>
+          <li>Puños y bajo elásticos</li>
+        </ul>
+      </div>
+      <div class="price-card">
+        <h3>Hoodie con capucha</h3>
+        <div class="p">49,95 €</div>
+        <small class="note">Felpa 489 g, capucha forrada</small>
+        <ul>
+          <li>Tallas S · M · L · XL</li>
+          <li>Cordón y bolsillo canguro</li>
+          <li>El más pedido en invierno</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note reveal" style="margin-top:22px">Tallas 2XL y 3XL: +3,00 €. El tallaje grande se corta más ancho de hombros: si dudas entre dos tallas en sudadera u hoodie, elige la menor.</p>
+  </div>
+</section>
+
+<section id="calidad">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <p class="eyebrow">Por qué DOS RUEDAS</p>
+        <h2 class="display">Hecho para durar<br>más que la moto</h2>
+      </div>
+      <p>No somos un marketplace de camisetas genéricas. Cada prenda se produce bajo pedido en talleres europeos y pasa control antes de salir.</p>
+    </div>
+    <div class="split reveal">
+      <div class="feature"><span class="n">01</span><h3>Impresión DTF</h3><p>Tinta textil de alta definición transferida en caliente. Colores saturados, negros profundos y tacto fino sobre el algodón. Lavados a 30º del revés: dura años.</p></div>
+      <div class="feature"><span class="n">02</span><h3>Etiqueta de marca</h3><p>La camiseta Premium lleva nuestra etiqueta impresa en el interior del cuello, no la del fabricante. La prenda se siente y se ve como una marca, no como un estampado suelto.</p></div>
+      <div class="feature"><span class="n">03</span><h3>Producción europea</h3><p>Fabricamos en talleres de Europa. Menos transporte, menos huella y paquetes que llegan en días, no en semanas.</p></div>
+      <div class="feature"><span class="n">04</span><h3>Sin stock, sin sobras</h3><p>No acumulamos montañas de ropa que nadie quiere: se produce lo que se vende. Ni existencias muertas ni rebajas de liquidación.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="envio" style="background:var(--ink-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div><p class="eyebrow">Envío y pago</p><h2 class="display">Sin sorpresas<br>al pagar</h2></div>
+      <p>El precio que ves es el precio final. Nada de gastos de envío añadidos al final del proceso.</p>
+    </div>
+    <div class="split reveal">
+      <div class="feature"><span class="n">01</span><h3>Envío incluido</h3><p>Precio final para península. Entrega estimada 3-5 días laborables desde la confirmación.</p></div>
+      <div class="feature"><span class="n">02</span><h3>Pago con tarjeta</h3><p>Checkout seguro con Stripe. Tus datos bancarios nunca pasan por nuestra web: los gestiona la pasarela.</p></div>
+      <div class="feature"><span class="n">03</span><h3>Cambios</h3><p>Si la talla no encaja, escríbenos por WhatsApp en 14 días y lo resolvemos. La prenda debe estar sin usar y con el estampado intacto.</p></div>
+      <div class="feature"><span class="n">04</span><h3>Impresión bajo pedido</h3><p>Cada prenda se imprime al confirmar el pago. Por eso no hay almacén ni excedentes: tu pedido es único.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head reveal"><div><p class="eyebrow">Dudas frecuentes</p><h2 class="display">Lo que preguntáis</h2></div></div>
+    <div class="faq reveal">
+      <details open><summary>¿Qué tallas hay disponibles?</summary><p>De la S a la 3XL según prenda. En camiseta llegamos hasta 3XL; en sudadera y hoodie hasta 3XL también. Las tallas 2XL y 3XL suman 3,00 € por mayor consumo de tela. Si dudas entre dos tallas, pide la menor en felpa: cede un poco con el uso.</p></details>
+      <details><summary>¿Cómo sé que el estampado no se irá con los lavados?</summary><p>Es impresión DTF transferida en caliente, no vinilo pegado ni serigrafía ligera. Con lavado a 30º y del revés aguanta años. Evita la secadora a temperatura alta y no planches directamente sobre el estampado.</p></details>
+      <details><summary>¿La marca va impresa en la camiseta?</summary><p>Sí. La Camiseta Premium y las prendas de felpa llevan etiqueta DOS RUEDAS en el interior del cuello. La Classic mantiene la etiqueta estándar del fabricante.</p></details>
+      <details><summary>¿Cuánto tarda mi pedido?</summary><p>Se produce tras confirmar el pago. Entre 3 y 5 días laborables para península, envío incluido.</p></details>
+      <details><summary>¿Puedo pagar con PayPal?</summary><p>Sí, puedes elegir PayPal dentro del pago seguro al finalizar la compra. También tarjeta de crédito y débito.</p></details>
+      <details><summary>¿Puedo pedir un diseño que no está en la web?</summary><p>Escríbenos por WhatsApp. Trabajamos diseños personalizados para clubes, peñas moteras y eventos, con precio por volumen.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="wrap split reveal">
+    <div>
+      <p class="eyebrow">Contacto</p>
+      <h2 class="display" style="font-size:clamp(1.8rem,4vw,2.8rem);margin:14px 0 16px">Escríbenos<br>y te ayudamos</h2>
+      <p style="color:var(--bone-dim);max-width:44ch">Dudas de tallaje, pedidos para un club o una peña, o un diseño a medida. Respondemos por WhatsApp en el mismo día.</p>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:14px;justify-content:center">
+      <a class="btn btn-primary" href="https://wa.me/34658237988?text=Hola%2C%20me%20interesa%20una%20prenda%20de%20DOS%20RUEDAS" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+      <a class="btn btn-ghost" href="mailto:hola@dosruedas.es">hola@dosruedas.es</a>
+      <p class="note">Producción europea · Envío incluido en península · Pago seguro con Stripe</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a href="#" class="logo" style="margin-bottom:12px">DOS<small>RUEDAS</small><i class="dot"></i></a>
+        <p>Ropa motera estampada en Europa. Diseños originales, producción bajo pedido y envío incluido.</p>
+      </div>
+      <div>
+        <h4>Tienda</h4>
+        <a href="#coleccion">Colección</a>
+        <a href="#prendas">Prendas y tallas</a>
+        <a href="#envio">Envío y pago</a>
+        <a href="#faq">Dudas frecuentes</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="aviso-legal.html">Aviso legal</a>
+        <a href="politica-privacidad.html">Política de privacidad</a>
+        <a href="politica-cookies.html">Política de cookies</a>
+        <a href="terminos.html">Términos y condiciones</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="https://wa.me/34658237988" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="mailto:hola@dosruedas.es">hola@dosruedas.es</a>
+        <p style="margin-top:10px">España · Envíos a la UE</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="year"></span> DOS RUEDAS · Marca de NEO Labs</span>
+      <span>Hecho en Europa · Impresión DTF</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa" href="https://wa.me/34658237988?text=Hola%2C%20me%20interesa%20una%20prenda%20de%20DOS%20RUEDAS" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.2-1.7-.9-2-1-.3-.1-.5-.2-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.6.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 1.7 2.7 4.2 3.7 2.5 1 2.5.7 3 .6.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.2-.2-.2-.5-.4zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.2-1.3c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2z"/></svg>
+</a>
+
+
+<div class="modal" id="modal">
+  <div class="modal-ov" onclick="closeModal()"></div>
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeModal()" aria-label="Cerrar">×</button>
+    <div class="modal-img"><img id="mImg" src="" alt=""></div>
+    <div class="modal-info">
+      <p class="eyebrow" id="mTag">Diseño</p>
+      <h3 id="mName">—</h3>
+      <div>
+        <p class="opt-label">Prenda</p>
+        <div class="opts" id="mPrendas"></div>
+      </div>
+      <div>
+        <p class="opt-label">Talla</p>
+        <div class="opts" id="mTallas"></div>
+      </div>
+      <div class="price-row"><b id="mPrecio">0,00 €</b><s id="mPrecioSin"></s></div>
+      <p class="note" id="mNota">Tallas 2XL y 3XL: +3,00 € · Envío incluido</p>
+      <div class="modal-cta">
+        <button class="btn btn-primary" style="justify-content:center" onclick="addFromModal()">Añadir al carrito</button>
+        <p class="note" style="text-align:center">Pago seguro con tarjeta o PayPal</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="overlay" onclick="closeCart()"></div>
+<aside class="cart-side" id="cartSide" aria-label="Carrito">
+  <div class="cart-head">
+    <h3>Tu carrito</h3>
+    <button onclick="closeCart()" style="font-size:1.5rem;line-height:1">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="cart-total"><span>Total (envío incluido)</span><b id="cartTotal">0,00 €</b></div>
+    <p class="note" style="margin-bottom:12px">Producción bajo pedido · 3-5 días laborables</p>
+    <button class="btn btn-primary" onclick="checkout()" id="checkoutBtn">Pagar</button>
+  </div>
+</aside>
+
+<script>
+/* ====== CATÁLOGO ====== */
+const API_URL = ""; /* Cloudflare Worker de Stripe: se rellena al desplegar */
+const CATALOGO = [
+ {s:"01-calavera-llamas",n:"Calavera en Llamas",t:"calavera"},
+ {s:"02-rider-atardecer",n:"Rider al Atardecer",t:"rider"},
+ {s:"03-motor-alado",n:"Motor Alado",t:"moto"},
+ {s:"04-calavera-gafas",n:"Calavera con Gafas",t:"calavera"},
+ {s:"05-calavera-motero",n:"Calavera Motero",t:"calavera"},
+ {s:"06-motera-vintage",n:"Motera Vintage",t:"moto"},
+ {s:"07-lobo-gafas",n:"Lobo con Gafas",t:"animal"},
+ {s:"08-serpiente-llaves",n:"Serpiente y Llaves",t:"animal"},
+ {s:"09-moto-clasica",n:"Moto Clásica",t:"moto"},
+ {s:"10-motor-llamas",n:"Motor en Llamas",t:"moto"},
+ {s:"11-carretera-atardecer",n:"Carretera al Atardecer",t:"moto"},
+ {s:"12-perro-sidecar",n:"Perro en Sidecar",t:"animal"},
+ {s:"13-chopper-negro",n:"Chopper Negro",t:"moto"},
+ {s:"14-rider-chopper",n:"Rider Chopper",t:"rider"},
+ {s:"15-rider-bosque",n:"Rider en el Bosque",t:"rider"},
+ {s:"16-moto-montanas",n:"Moto en las Montañas",t:"moto"},
+ {s:"17-emblema-taller",n:"Emblema del Taller",t:"moto"},
+ {s:"18-aguila-motor",n:"Águila Motor",t:"animal"}
+];
+const PRENDAS = {
+  classic:{n:"Camiseta Classic",p:24.95,d:"Algodón 185 g/m²",uid:"apparel_product_gca_t-shirt_gsc_crewneck_gcu_unisex_gqa_heavy-weight"},
+  premium:{n:"Camiseta Premium",p:29.95,d:"Etiqueta de marca en el cuello",uid:"apparel_product_gca_t-shirt_gsc_crewneck_gcu_unisex_gqa_heavy-weight"},
+  sudadera:{n:"Sudadera Classic",p:44.95,d:"Felpa 429 g",uid:"apparel_product_gca_sweatshirt_gsc_crewneck_gcu_unisex_gqa_classic"},
+  hoodie:{n:"Hoodie con capucha",p:49.95,d:"Felpa 489 g",uid:"apparel_product_gca_hoodie_gsc_pullover_gcu_unisex_gqa_classic"}
+};
+const TALLAS=["S","M","L","XL","2XL","3XL"];
+const RECARGO_TALLA=3.00;
+const eur=v=>v.toFixed(2).replace(".",",")+" €";
+const img=s=>"assets/preview/"+s+".jpg";
+
+/* ====== ESTADO ====== */
+let cart=JSON.parse(localStorage.getItem("dr_cart")||"[]");
+let cur=null, curPrenda="premium", curTalla="L";
+
+/* ====== GRID ====== */
+function renderGrid(){
+  document.getElementById("grid").innerHTML=CATALOGO.map((d,i)=>`
+    <article class="card reveal" data-tag="${d.t}" onclick="openModal('${d.s}')">
+      <div class="card-img">
+        <img src="${img(d.s)}" alt="${d.n} — diseño motero DOS RUEDAS" loading="${i<4?"eager":"lazy"}" width="600" height="600">
+        <span class="card-tag">DTF</span>
+      </div>
+      <div class="card-body">
+        <h3>${d.n}</h3>
+        <div class="price">desde <b>24,95 €</b> · envío incluido</div>
+        <div class="from">Elegir prenda y talla →</div>
+      </div>
+    </article>`).join("");
+  observeReveal();
+}
+function filterCards(btn){
+  document.querySelectorAll(".chip").forEach(c=>c.classList.remove("active"));
+  btn.classList.add("active");
+  const f=btn.dataset.f;
+  document.querySelectorAll(".card").forEach(c=>{
+    c.style.display=(f==="all"||c.dataset.tag===f)?"":"none";
+  });
+}
+
+/* ====== MODAL ====== */
+function openModal(slug){
+  cur=CATALOGO.find(d=>d.s===slug);
+  document.getElementById("mImg").src=img(cur.s);
+  document.getElementById("mImg").alt=cur.n+" — DOS RUEDAS";
+  document.getElementById("mName").textContent=cur.n;
+  document.getElementById("mTag").textContent="Colección Black Rider";
+  document.getElementById("mPrendas").innerHTML=Object.entries(PRENDAS).map(([k,v])=>
+    `<button class="opt${k===curPrenda?" sel":""}" onclick="setPrenda('${k}',this)">${v.n}<small>${eur(v.p)}</small></button>`).join("");
+  document.getElementById("mTallas").innerHTML=TALLAS.map(t=>
+    `<button class="opt${t===curTalla?" sel":""}" onclick="setTalla('${t}',this)">${t}${(t==="2XL"||t==="3XL")?" <small>+3 €</small>":""}</button>`).join("");
+  updateModalPrice();
+  document.getElementById("modal").classList.add("open");
+  document.body.style.overflow="hidden";
+}
+function closeModal(){
+  document.getElementById("modal").classList.remove("open");
+  document.body.style.overflow="";
+}
+function setPrenda(k,el){
+  curPrenda=k;
+  el.parentElement.querySelectorAll(".opt").forEach(o=>o.classList.remove("sel"));
+  el.classList.add("sel");
+  updateModalPrice();
+}
+function setTalla(t,el){
+  curTalla=t;
+  el.parentElement.querySelectorAll(".opt").forEach(o=>o.classList.remove("sel"));
+  el.classList.add("sel");
+  updateModalPrice();
+}
+function precioActual(){
+  return PRENDAS[curPrenda].p + ((curTalla==="2XL"||curTalla==="3XL")?RECARGO_TALLA:0);
+}
+function updateModalPrice(){
+  document.getElementById("mPrecio").textContent=eur(precioActual());
+  document.getElementById("mPrecioSin").textContent=(curTalla==="2XL"||curTalla==="3XL")?"incluye recargo de talla":"";
+}
+function addFromModal(){
+  cart.push({slug:cur.s,nombre:cur.n,prenda:curPrenda,prendaNombre:PRENDAS[curPrenda].n,talla:curTalla,precio:precioActual()});
+  save(); renderCart(); closeModal(); openCart();
+}
+
+/* ====== CARRITO ====== */
+function save(){ localStorage.setItem("dr_cart",JSON.stringify(cart)); }
+function renderCart(){
+  const box=document.getElementById("cartItems");
+  document.getElementById("cartCount").textContent=cart.length;
+  if(!cart.length){
+    box.innerHTML='<p class="note">Tu carrito está vacío. Elige un diseño de la colección.</p>';
+    document.getElementById("cartTotal").textContent=eur(0);
+    document.getElementById("checkoutBtn").disabled=true;
+    document.getElementById("checkoutBtn").style.opacity=".5";
+    return;
+  }
+  document.getElementById("checkoutBtn").disabled=false;
+  document.getElementById("checkoutBtn").style.opacity="1";
+  box.innerHTML=cart.map((it,i)=>`
+    <div class="cart-item">
+      <img src="${img(it.slug)}" alt="${it.nombre}">
+      <div class="ci-info">
+        <b>${it.nombre}</b>
+        <span>${it.prendaNombre} · Talla ${it.talla}</span>
+        <span style="display:block;color:var(--bone);margin-top:4px">${eur(it.precio)}</span>
+      </div>
+      <button class="ci-rm" onclick="removeItem(${i})" aria-label="Quitar">&times;</button>
+    </div>`).join("");
+  const total=cart.reduce((a,b)=>a+b.precio,0);
+  document.getElementById("cartTotal").textContent=eur(total);
+}
+function removeItem(i){ cart.splice(i,1); save(); renderCart(); }
+function openCart(){ document.getElementById("cartSide").classList.add("open"); document.getElementById("overlay").classList.add("open"); }
+function closeCart(){ document.getElementById("cartSide").classList.remove("open"); document.getElementById("overlay").classList.remove("open"); }
+
+/* ====== CHECKOUT ====== */
+async function checkout(){
+  if(!cart.length) return;
+  const items=cart.map(it=>({diseno:it.slug,prenda:it.prenda,talla:it.talla}));
+  const wa="https://wa.me/34658237988?text="+encodeURIComponent("Hola, quiero pedir de DOS RUEDAS: "+cart.map(it=>it.nombre+" ("+it.prendaNombre+", talla "+it.talla+")").join(", "));
+  if(!API_URL){ window.open(wa,"_blank"); return; }
+  const btn=document.getElementById("checkoutBtn");
+  btn.disabled=true; btn.textContent="Abriendo pago seguro...";
+  try{
+    const r=await fetch(API_URL+"/create-checkout",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({items})});
+    const d=await r.json();
+    if(d.url){ location.href=d.url; }
+    else{ alert("No se pudo iniciar el pago: "+(d.error||"error")); btn.disabled=false; btn.textContent="Pagar"; }
+  }catch(e){
+    alert("Error de conexión. Escríbenos por WhatsApp y lo cerramos a mano.");
+    window.open(wa,"_blank"); btn.disabled=false; btn.textContent="Pagar";
+  }
+}
+
+/* ====== REVEAL ====== */
+let io;
+function observeReveal(){
+  if(!io){
+    io=new IntersectionObserver(es=>es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target);} }),{threshold:.12});
+  }
+  document.querySelectorAll(".reveal:not(.in)").forEach(el=>io.observe(el));
+}
+
+/* ====== INIT ====== */
+document.getElementById("year").textContent=new Date().getFullYear();
+renderGrid(); renderCart(); observeReveal();
+window.addEventListener("scroll",()=>document.getElementById("hdr").classList.toggle("scrolled",window.scrollY>40));
+document.querySelectorAll(".nav-links a").forEach(a=>a.addEventListener("click",()=>document.getElementById("navLinks").classList.remove("open")));
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"OnlineStore",
+  "name":"DOS RUEDAS",
+  "description":"Ropa motera premium estampada en Europa: camisetas desde 24,95 €, sudaderas y hoodies con diseños originales. Tallas S a 3XL, envío incluido y pago seguro.",
+  "url":"https://magodago.github.io/dos-ruedas/",
+  "image":"https://magodago.github.io/dos-ruedas/assets/preview/01-calavera-llamas.jpg",
+  "priceRange":"24,95 € - 52,95 €",
+  "areaServed":"ES",
+  "currenciesAccepted":"EUR",
+  "paymentAccepted":"Tarjeta de crédito, PayPal",
+  "hasOfferCatalog":{
+    "@type":"OfferCatalog",
+    "name":"Colección Black Rider",
+    "itemListElement":[
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Camiseta Classic motera"},"price":"24.95","priceCurrency":"EUR","availability":"https://schema.org/InStock"},
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Camiseta Premium con etiqueta de marca"},"price":"29.95","priceCurrency":"EUR","availability":"https://schema.org/InStock"},
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Sudadera Classic motera"},"price":"44.95","priceCurrency":"EUR","availability":"https://schema.org/InStock"},
+      {"@type":"Offer","itemOffered":{"@type":"Product","name":"Hoodie con capucha motero"},"price":"49.95","priceCurrency":"EUR","availability":"https://schema.org/InStock"}
+    ]
+  }
+}
+</script>
+</body>
+</html>
